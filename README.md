@@ -1,8 +1,7 @@
-# Network Traffic Investigation Casebook
+# Network Traffic Investigation
 
 A small hands-on lab where I create fake network attacks between two virtual machines, watch them in Wireshark, and then write Python scripts that spot the same attacks automatically.
 
-It is a beginner-to-intermediate project. No special libraries needed: just Python 3, `tshark` and two VMs on one computer.
 
 ## What this project does
 
