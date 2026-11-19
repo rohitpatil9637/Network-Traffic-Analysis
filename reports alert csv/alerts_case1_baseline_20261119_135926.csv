@@ -1,0 +1,4 @@
+severity,ip,alert,value,threshold,why
+HIGH,172.16.21.138,PORT SCAN,1000,15,one IP touched many different destination ports
+HIGH,172.16.21.138,HIGH SYN RATE,1994,200,one IP opened a very large number of TCP connections
+MEDIUM,172.16.21.138,TRAFFIC BURST,758,300,one IP sent a very high packets-per-second burst

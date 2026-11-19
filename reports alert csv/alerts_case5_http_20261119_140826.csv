@@ -1,0 +1,4 @@
+severity,ip,alert,value,threshold,why
+MEDIUM,172.16.21.138,HIGH SYN RATE,300,200,one IP opened a very large number of TCP connections
+HIGH,172.16.21.138,HTTP FLOOD?,300,100,one IP made many new connections to port 80
+HIGH,172.16.21.138,TRAFFIC BURST,957,300,one IP sent a very high packets-per-second burst

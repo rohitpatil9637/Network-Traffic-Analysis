@@ -1,0 +1,7 @@
+severity,ip,alert,value,threshold,why
+HIGH,172.16.21.138,PORT SCAN,1000,15,one IP touched many different destination ports
+HIGH,172.16.21.138,HIGH SYN RATE,2295,200,one IP opened a very large number of TCP connections
+HIGH,172.16.21.138,ICMP FLOOD,305,100,one IP sent a large number of ping requests
+HIGH,172.16.21.138,HTTP FLOOD?,306,100,one IP made many new connections to port 80
+HIGH,172.16.21.138,TRAFFIC BURST,1249,300,one IP sent a very high packets-per-second burst
+MEDIUM,172.16.21.138,TOP TALKER,4146,3000,one IP sent a very large total number of packets

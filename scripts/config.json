@@ -1,0 +1,13 @@
+{
+  "target_ip": "172.16.21.136",
+  "ignore_ips": [],
+  "thresholds": {
+    "port_scan_unique_ports": 15,
+    "syn_count": 200,
+    "icmp_echo_count": 100,
+    "ssh_new_connections": 10,
+    "http_new_connections": 100,
+    "peak_packets_per_second": 300,
+    "total_packets": 3000
+  }
+}
